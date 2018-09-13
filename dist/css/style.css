@@ -1,0 +1,96 @@
+*{
+	font-family: "Work Sans", Arial, sans-serif;
+}
+
+.devalley-navbar-light{
+    background: transparent !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    top: 30px;
+}
+.bg-dark {
+    background-color: #343a40 !important;
+}
+
+@media (min-width: 992px)
+.navbar-expand-lg {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.navbar {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+.gradient-layer{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -20px;
+    content: '';
+    opacity: .99;
+    background: #448ef6;
+    background: -moz-linear-gradient(45deg, #29bae4 0%, #ee76ad 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, #29bae4), color-stop(100%, #ee76ad));
+    background: -webkit-linear-gradient(45deg, #29bae4 0%, #ee76ad 100%);
+    background: -o-linear-gradient(45deg, #29bae4 0%, #ee76ad 100%);
+    background: -ms-linear-gradient(45deg, #29bae4 0%, #ee76ad 100%);
+    background: linear-gradient(45deg, #e1eec3 0%, #f05053 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#448ef6', endColorstr='#af05a9', GradientType=1 );
+}
+.wt{
+	color: #fff;
+}
+.bt{
+	color: #000;
+}
+
+.headline{
+
+ 	font-family: "Work Sans", Arial, sans-serif;
+    font-size: 52px;
+	color: #fff;
+    line-height: 1.2;
+    font-weight: 200;
+}
+.mt{
+	margin-top: 9rem!important;
+}
+
+.devalley-heade-section:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -90px;
+    overflow: visible;
+    width: 100%;
+    height: 120px;
+    z-index: 1;
+    -webkit-transform: skewY(4deg);
+    -moz-transform: skewY(4deg);
+    -ms-transform: skewY(4deg);
+    -o-transform: skewY(4deg);
+    transform: skewY(4deg);
+    background-color: #fff;
+}
